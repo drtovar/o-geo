@@ -1,9 +1,20 @@
+@import url('https://adobe-fonts.github.io/source-code-pro/source-code-pro.css');
+
 body {
   background: black;
   color: #bbbbbb;
   font-family: "Source Code Pro", "DejaVu Sans Mono", Menlo, "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
   font-size: 100%;
+max-width: 700px;
 }
 pre {
   font-family: "Source Code Pro", "DejaVu Sans Mono", Menlo, "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+}
+
+th, td {
+  border-bottom: 1px solid;
+}
+
+td {
+  vertical-align: top;
 }
